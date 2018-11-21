@@ -19,12 +19,13 @@ public class Main extends JFrame implements ActionListener {
     }
 
 
+
     private int currentQuestion;
 
     private List<Question>questionList = new ArrayList<Question>();
 
     public Main(){
-        setQuestionGenerator(new SimpleQuestionGenerator());
+        setQuestionGenerator(new QuestionFileGenerator());
         questionList = questionGenerator.generateQuestion();
         setSize(500,500);
         setTitle("Milionaires");

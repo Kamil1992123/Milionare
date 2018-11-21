@@ -1,0 +1,4 @@
+Czy int to klasa ? Nie
+Czy Polska leży w Azji? Nie
+Czy 2+2+2=8? Nie
+Czy String to klasa? Tak
